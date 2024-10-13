@@ -5473,7 +5473,6 @@ div h2 {
   padding: 32px;
   border-radius: 16px;
   width: clamp(min(400px, 100%), 65%, 845px);
-  height: 100%;
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 16px;
@@ -5481,7 +5480,7 @@ div h2 {
 }
 
 .horizontal-hr {
-  height: 100%;
+  height: calc(auto);
   width: 2px;
   background-color: var(--primary-500);
 }
