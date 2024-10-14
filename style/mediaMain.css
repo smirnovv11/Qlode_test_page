@@ -1778,7 +1778,7 @@
   }
 
   .benefits-title__title {
-    font-size: 26px;
+    font-size: clamp(24px, 5vw + 0.5rem, 30px);
     font-weight: 500;
   }
 
@@ -2261,9 +2261,13 @@
     padding: 0.5rem 4rem;
   }
 
+  .benefits-content {
+    gap: 12px;
+  }
+
   .benefits-content-card {
     padding: 12px;
-    gap: 10px;
+    gap: 4px;
   }
 
   .benefits-title {
@@ -2289,10 +2293,6 @@
   .benefits-content-card__subtitle,
   .benefits-content-card__title {
     padding: 6px;
-  }
-
-  .benefits-content-card__title {
-    font-size: 17px;
   }
 
   .title-solution__title-button {
